@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://G://struts2validator/struts2validator.iml" filepath="G://struts2validator/struts2validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2validator.iml" filepath="$PROJECT_DIR$/struts2validator.iml" />
     </modules>
   </component>
 </project>

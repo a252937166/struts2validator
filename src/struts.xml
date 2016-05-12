@@ -4,5 +4,10 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
-
+    <package name="user" extends="struts-default" namespace="/user">
+        <action name="user_*" class="action.UserAction" method="{1}">
+            <result>/index.jsp</result>
+            <result name="input">/login.jsp</result>
+        </action>
+    </package>
 </struts>
